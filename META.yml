@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               LibCAS
-version:            0.02
+version:            0.02a
 abstract:           A library for interacting with Jasig's CAS server
 author:
     - "Michael Morris" <"michael.m.morris@gmail.com">

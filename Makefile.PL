@@ -6,7 +6,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME     => 'LibCAS',
     AUTHOR   => q{"Michael Morris" <"michael.m.morris@gmail.com">},
-    VERSION  => '0.02',
+    VERSION  => '0.02a',
     ABSTRACT => 'A library for interacting with Jasig\'s CAS server',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
