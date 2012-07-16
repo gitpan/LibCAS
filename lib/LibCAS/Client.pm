@@ -21,11 +21,11 @@ LibCAS::Client - A perl module for authenticating and validating against Jasig's
 
 =head1 VERSION
 
-Version 0.01a
+Version 0.01
 
 =cut
 
-our $VERSION = '0.01a';
+our $VERSION = '0.01';
 
 =head1 SYNOPSIS
 
