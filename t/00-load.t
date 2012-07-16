@@ -1,5 +1,7 @@
 #!perl -T
 
+use lib qw(. ..);
+
 use Test::More tests => 1;
 
 BEGIN {

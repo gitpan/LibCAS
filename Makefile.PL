@@ -11,6 +11,7 @@ WriteMakefile(
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
       : ()),
+    MIN_PERL_VERSION => 5.8.8,
     PL_FILES  => {},
     PREREQ_PM => {
         'Test::More' => 0,
@@ -23,7 +24,7 @@ WriteMakefile(
         'HTTP::Cookies'  => 0,
         'LWP::UserAgent' => 0,
         'URI' => 0,
-        'XML::LibXML' => 0
+        'XML::LibXML' => 1.90
     },
     dist   => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean  => { FILES => 'LibCAS-*' },

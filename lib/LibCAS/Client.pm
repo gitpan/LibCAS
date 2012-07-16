@@ -21,7 +21,11 @@ LibCAS::Client - A perl module for authenticating and validating against Jasig's
 
 =head1 VERSION
 
-Version 0.01
+Version 0.01a
+
+=cut
+
+our $VERSION = '0.01a';
 
 =head1 SYNOPSIS
 
@@ -46,9 +50,7 @@ Using the module should hopefully be straight forward, something similar to:
 		# Anything that makes it here is an error
 	}
 
-=cut
-
-our $VERSION = '0.01'; 
+=cut 
 
 my $cas_url = "https://localhost/cas";
 my $cas_login_path    = "/login";

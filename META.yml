@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               LibCAS
-version:            0.01
+version:            0.01a
 abstract:           A library for interacting with Jasig's CAS server
 author:
     - "Michael Morris" <"michael.m.morris@gmail.com">
@@ -19,9 +19,10 @@ requires:
     Data::Dumper:         0
     HTTP::Cookies:        0
     LWP::UserAgent:       0
+    perl:                 
     Test::More:           0
     URI:                  0
-    XML::LibXML:          0
+    XML::LibXML:          1.9
 no_index:
     directory:
         - t
